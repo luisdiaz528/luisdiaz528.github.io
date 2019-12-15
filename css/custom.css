@@ -3,6 +3,9 @@ header {
     background-size: cover;
 }
 
+#main-heading {
+    font-family: 'Gelasio', serif;
+}
 
 
 header h1, header p {
