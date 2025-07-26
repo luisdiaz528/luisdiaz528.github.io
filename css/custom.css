@@ -1,0 +1,70 @@
+header {
+    background-image: url('../images/atl.jpg');
+    background-size: cover;
+}
+
+#main-heading {
+    font-family: 'Gelasio', serif;
+}
+
+
+header h1, header p {
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+#about {
+    background-image: linear-gradient(white, lightblue);
+}
+
+#portfolio h2, #about h2, #contact h2, #skills h2 {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#portfolio, #skills {
+    background-color: lightblue;
+}
+
+#contact {
+    background-image: linear-gradient(lightblue, white);
+}
+
+.portfolio-item {
+    box-shadow: 1px 1px 14px black;
+}
+
+.footer img {
+    height: 58px;
+}
+
+.footer img:hover {
+    opacity: .4;
+  transition: all .5s;
+}
+
+#mainNav {
+    background-color: black;
+}
+
+.fa-star {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.divider-custom-line {
+    box-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
